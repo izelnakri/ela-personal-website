@@ -1,0 +1,102 @@
+	html, body
+	{
+		height: 100%;
+}
+
+body
+	{
+		margin: 25px;
+		padding: 0px;
+		background: #FFF;
+		font-family: "Arial narrow", sans-serif;
+		font-size: 12pt;
+		font-weight: 100;
+}
+
+#header
+	{
+		width: 600px;
+		height: 100px;
+		position: fixed;
+		padding-left: 250px;
+}
+
+#menu
+	{
+		font-family: "Arial narrow", sans-serif;
+		font-size: 16pt;
+		font-weight: 100;
+		padding-top: 25px;
+		float: left;
+		position: fixed;
+		right: 0;
+		padding-right: 250px;
+	}
+
+#menu ul
+	{
+		display: inline-block;
+	}
+
+#menu li
+	{
+		display: block;
+		float: left;
+		text-align: right;
+	}
+
+#menu li a
+	{
+		display: block;
+		padding: 0.80em .75em;
+		text-decoration: none;
+		font-weight: 500;
+		outline: 0;
+		color: #000000;
+}
+
+.title
+	{
+		font-family: Consolas;
+		font-size: 16pt;
+		font-weight: 100;
+		font
+}
+
+#content
+	{
+		padding: 25px;
+		background: #F0F3F4;
+		position: absolute;
+		clear: both;
+		height: 600px;
+		width: 1250px;
+		margin-top: 150px;
+		margin-right: 250px;
+		margin-left: 250px;
+		margin-bottom: 150px;
+		text-align: center;
+}
+
+#gallery
+	{
+		margin-top:50px;
+		margin-bottom:100px;
+}
+
+#gallery ul
+	{
+		display: inline-block;
+	}
+
+#gallery li
+	{
+		display: block;
+		float: left;
+		text-align: right;
+	}
+
+form
+	{
+		margin-top: 50px;
+	}
